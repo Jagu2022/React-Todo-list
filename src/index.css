@@ -1,0 +1,87 @@
+*{
+  font-family: Arial;
+  background-color: rgb(194,194,194);
+  padding: 0;
+  margin: 0;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+}
+.todoMain h1{
+  text-align: center;
+  margin: 5px 5px;
+}
+input{
+  width: 90vw;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 15pc;
+  outline: none;
+}
+.btn{
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 10pc;
+  font-size: 18px;
+  font-weight: bold;
+}
+.add{
+  background-color: #67dffa;
+  color: white;
+}
+.add:hover{
+  background-color: white;
+  color: #67dffa;
+  border: 1px solid #67dffa;
+}
+.addBtn{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.length{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inpt{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.Edit{
+  background-color: #4cfdbe;
+  color: white;
+}
+.Edit:hover{
+  background-color: white;
+  color: #4cfdbe;
+  border: 1px solid #4cfdbe;
+}
+.dlt{
+  background-color: #ff8e7b;
+  color: white;
+}
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.item{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.allBtn{
+  margin-top: 10px;
+}
+input:focus{
+  border: 3px solid #62e2ff;
+}
