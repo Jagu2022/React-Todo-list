@@ -1,5 +1,5 @@
 # React + Vite
-
+# This React Todo-List maini project focus on using UseReducer & useState based
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
